@@ -49,10 +49,9 @@ function TurkeyEvAbout() {
     const maxACPercent = (parseInt(ExampleData[0].count) / (parseInt(ExampleData[0].count) + parseInt(ExampleData[1].count)) * 100);
     const maxDCPercent = (parseInt(ExampleData[1].count) / (parseInt(ExampleData[0].count) + parseInt(ExampleData[1].count)) * 100);
 
-    // Animasyon süresi (5 saniye)
-    const animationDuration = 5000; // 5 saniye
-    const steps = 100; // Animasyon adım sayısı
-    const stepDuration = animationDuration / steps; // Her adımın süresi
+    const animationDuration = 5000;
+    const steps = 100;
+    const stepDuration = animationDuration / steps;
 
     useEffect(() => {
         const acInterval = setInterval(() => {
@@ -102,7 +101,7 @@ function TurkeyEvAbout() {
     return (
         <>
             <div className='flex justify-center align-center'>
-                <Flex gap="middle" align="center">
+                <div className='flex flex-col md:flex-row align-center gap-5 md:gap-10'>
                     <div className="justify-center text-center shadow-xl p-10 rounded-xl" >
                         <Progress
                             type="circle"
@@ -149,7 +148,7 @@ function TurkeyEvAbout() {
                             </div>
                         ))}
                     </div>
-                </Flex>
+                </div>
             </div>
         </>
     );

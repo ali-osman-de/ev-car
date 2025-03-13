@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../Components/Header'
 
-
-function ElectricVehiclesPage() {
+function ResourcesPage() {
     return (
         <>
             <Header />
+
         </>
     )
 }
 
-export default ElectricVehiclesPage
+export default ResourcesPage

@@ -4,7 +4,7 @@ import { BsEvFrontFill } from "react-icons/bs";
 const navigation = [
   { name: 'Electric Vehicles', href: 'electric-vehicles' },
   { name: 'Charging Stations', href: 'charging-stations' },
-  { name: 'EV Incentions', href: 'ev-incentions' },
+  { name: 'EV Compare', href: 'ev-compare' },
   { name: 'Resources', href: 'resources' },
 ]
 
