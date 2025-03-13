@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../Components/Header';
 import MapEVContainer from '../Components/MapEVContainer';
 import EVsChargerSuppliers from '../Components/EVsChargerSuppliers';
 import TurkeyEvAbout from '../Components/TurkeyEvAbout';
@@ -8,7 +7,6 @@ import TurkeyEvAbout from '../Components/TurkeyEvAbout';
 function CharginStationsPage() {
     return (
         <>
-            <Header />
             <div className="px-40 flex flex-1 justify-center py-5 ">
                 <div>
                     <MapEVContainer />

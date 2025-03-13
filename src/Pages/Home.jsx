@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../Components/Header'
 import BrowseCategory from '../Components/BrowseCategory'
 import ImageHero from '../Components/ImageHero'
 import News from '../Components/News'
@@ -8,7 +7,6 @@ import WhyChooseElectricCar from '../Components/WhyChooseElectricCar'
 function Home() {
     return (
         <>
-            <Header />
             <div className="px-40 flex flex-1 justify-center py-5">
                 <div >
                     <ImageHero />
