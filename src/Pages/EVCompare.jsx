@@ -8,7 +8,7 @@ function EVCompare() {
 
     useEffect(() => {
         // API'den veri çek
-        fetch('http://127.0.0.1:5000/cars')
+        fetch('https://evcarbackend.onrender.com/cars')
             .then(response => response.json())
             .then(data => setCars(data))
             .catch(error => console.error('Error fetching cars:', error));
@@ -60,7 +60,7 @@ function EVCompare() {
 
                 {/* Arama yapılıyorsa listeyi göster, değilse CompareResultCars göster */}
                 {searchTerm ? (
-                    <div className="px-4 py-3">
+                    <div>
                         {filteredCars.length > 0 ? (
                             filteredCars.map((car) => (
                                 <div key={car.id} className="flex items-center gap-4 bg-white px-4 min-h-[72px] py-2 justify-between">
