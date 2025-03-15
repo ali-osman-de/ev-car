@@ -1,13 +1,5 @@
-import React from 'react'
-import Header from '../Components/Header'
-
 function ResourcesPage() {
-    return (
-        <>
-            <Header />
-
-        </>
-    )
+  return <>ResourcesPage</>;
 }
 
-export default ResourcesPage
+export default ResourcesPage;
