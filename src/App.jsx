@@ -1,15 +1,12 @@
-import { Route, Routes } from "react-router"
-import Home from "./Pages/Home"
-import ElectricVehiclesPage from "./Pages/ElectricVehiclesPage"
-import CharginStationsPage from "./Pages/CharginStationsPage"
-import EVCompare from "./Pages/EVCompare"
-import ResourcesPage from "./Pages/ResourcesPage"
-import Header from "./Components/Header"
-
+import {Route, Routes} from "react-router";
+import Home from "./Pages/Home";
+import ElectricVehiclesPage from "./Pages/ElectricVehiclesPage";
+import CharginStationsPage from "./Pages/CharginStationsPage";
+import EVCompare from "./Pages/EVCompare";
+import ResourcesPage from "./Pages/ResourcesPage";
+import Header from "./Components/Header";
 
 function App() {
-
-
   return (
     <>
       <Header />
@@ -21,7 +18,7 @@ function App() {
         <Route path="/resources" element={<ResourcesPage />} />
       </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

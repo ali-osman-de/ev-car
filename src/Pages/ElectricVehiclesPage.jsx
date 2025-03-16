@@ -1,11 +1,11 @@
-import React from 'react'
+// import CarList from "../Components/CarList";
+import CarFiltering from "../Components/CarFiltering";
 
-
-function ElectricVehiclesPage() {
-    return (
-        <>
-        </>
-    )
+export default function ElectricVehiclesPage() {
+  return (
+    <>
+      <CarFiltering />
+      {/* <CarList /> */}
+    </>
+  );
 }
-
-export default ElectricVehiclesPage
