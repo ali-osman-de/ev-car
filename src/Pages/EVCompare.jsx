@@ -63,10 +63,10 @@ function EVCompare() {
                     <div>
                         {filteredCars.length > 0 ? (
                             filteredCars.map((car) => (
-                                <div key={car.id} className="flex items-center gap-4 bg-white px-4 min-h-[72px] py-2 justify-between">
+                                <div key={car.id} className="flex items-center gap-4 bg-white px-4  py-2 justify-between">
                                     <div className="flex items-center gap-4">
                                         <div
-                                            className="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+                                            className="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-20"
                                             style={{ backgroundImage: `url(${car.car_image})` }}
                                         ></div>
                                         <div className="flex flex-col justify-center">

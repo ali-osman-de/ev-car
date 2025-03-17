@@ -1,6 +1,6 @@
 "use client";
 
-import {useState} from "react";
+import { useState } from "react";
 import {
   Dialog,
   DialogBackdrop,
@@ -13,7 +13,7 @@ import {
   MenuItem,
   MenuItems,
 } from "@headlessui/react";
-import {XMarkIcon} from "@heroicons/react/24/outline";
+import { XMarkIcon } from "@heroicons/react/24/outline";
 import {
   ChevronDownIcon,
   FunnelIcon,
@@ -24,53 +24,53 @@ import {
 import CarList from "./CarList";
 
 const sortOptions = [
-  {name: "Most Popular", href: "#", current: true},
-  {name: "Best Rating", href: "#", current: false},
-  {name: "Newest", href: "#", current: false},
-  {name: "Price: Low to High", href: "#", current: false},
-  {name: "Price: High to Low", href: "#", current: false},
+  { name: "Most Popular", href: "#", current: true },
+  { name: "Best Rating", href: "#", current: false },
+  { name: "Newest", href: "#", current: false },
+  { name: "Price: Low to High", href: "#", current: false },
+  { name: "Price: High to Low", href: "#", current: false },
 ];
 const subCategories = [
-  {name: "Totes", href: "#"},
-  {name: "Backpacks", href: "#"},
-  {name: "Travel Bags", href: "#"},
-  {name: "Hip Bags", href: "#"},
-  {name: "Laptop Sleeves", href: "#"},
+  { name: "Totes", href: "#" },
+  { name: "Backpacks", href: "#" },
+  { name: "Travel Bags", href: "#" },
+  { name: "Hip Bags", href: "#" },
+  { name: "Laptop Sleeves", href: "#" },
 ];
 const filters = [
   {
     id: "color",
     name: "Color",
     options: [
-      {value: "white", label: "White", checked: false},
-      {value: "beige", label: "Beige", checked: false},
-      {value: "blue", label: "Blue", checked: true},
-      {value: "brown", label: "Brown", checked: false},
-      {value: "green", label: "Green", checked: false},
-      {value: "purple", label: "Purple", checked: false},
+      { value: "white", label: "White", checked: false },
+      { value: "beige", label: "Beige", checked: false },
+      { value: "blue", label: "Blue", checked: true },
+      { value: "brown", label: "Brown", checked: false },
+      { value: "green", label: "Green", checked: false },
+      { value: "purple", label: "Purple", checked: false },
     ],
   },
   {
     id: "category",
     name: "Category",
     options: [
-      {value: "new-arrivals", label: "New Arrivals", checked: false},
-      {value: "sale", label: "Sale", checked: false},
-      {value: "travel", label: "Travel", checked: true},
-      {value: "organization", label: "Organization", checked: false},
-      {value: "accessories", label: "Accessories", checked: false},
+      { value: "new-arrivals", label: "New Arrivals", checked: false },
+      { value: "sale", label: "Sale", checked: false },
+      { value: "travel", label: "Travel", checked: true },
+      { value: "organization", label: "Organization", checked: false },
+      { value: "accessories", label: "Accessories", checked: false },
     ],
   },
   {
     id: "size",
     name: "Size",
     options: [
-      {value: "2l", label: "2L", checked: false},
-      {value: "6l", label: "6L", checked: false},
-      {value: "12l", label: "12L", checked: false},
-      {value: "18l", label: "18L", checked: false},
-      {value: "20l", label: "20L", checked: false},
-      {value: "40l", label: "40L", checked: true},
+      { value: "2l", label: "2L", checked: false },
+      { value: "6l", label: "6L", checked: false },
+      { value: "12l", label: "12L", checked: false },
+      { value: "18l", label: "18L", checked: false },
+      { value: "20l", label: "20L", checked: false },
+      { value: "40l", label: "40L", checked: true },
     ],
   },
 ];
@@ -201,10 +201,10 @@ export default function Example() {
           </div>
         </Dialog>
 
-        <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex items-baseline justify-between border-b border-gray-200 pt-24 pb-6">
+        <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-5">
+          <div className="flex items-baseline justify-between border-b border-gray-200 my-5 pb-6">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900">
-              New Arrivals
+              Electric Vehicles
             </h1>
 
             <div className="flex items-center">
