@@ -77,7 +77,7 @@ function MapEVContainer() {
                         icon = teslaIcon;
                         break;
                     default:
-                        icon = esarjIcon; // Varsayılan ikon
+                        icon = esarjIcon; 
                 }
 
                 const marker = L.marker([station.geometry_latitude, station.geometry_longitude], { icon });
@@ -109,7 +109,9 @@ function MapEVContainer() {
         <div
             id="map"
             className="mt-10 flex h-100 w-100 md:h-100 md:w-150 lg:h-150 lg:w-225 xl:h-150 xl:w-250 flex-col gap-6 bg-cover bg-center bg-no-repeat rounded-xl gap-8 items-center justify-center p-4"
-        ></div>
+        >
+
+        </div>
     );
 }
 
