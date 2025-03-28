@@ -1,24 +1,27 @@
-import {Route, Routes} from "react-router";
 import Home from "./Pages/Home";
 import ElectricVehiclesPage from "./Pages/ElectricVehiclesPage";
 import CharginStationsPage from "./Pages/CharginStationsPage";
-import EVCompare from "./Pages/EVCompare";
 import ResourcesPage from "./Pages/ResourcesPage";
+import EvComparePage from "./Pages/EvComparePage";
+import { useRoutes } from 'react-router-dom';
 import Header from "./Components/Header";
 
 function App() {
+
+  let routes = useRoutes([
+    { path: '/', element: <Home /> },
+    { path: "/electric-vehicles", element: <ElectricVehiclesPage /> },
+    { path: "/charging-stations", element: <CharginStationsPage /> },
+    { path: "/ev-compare", element: <EvComparePage /> },
+    { path: "/resources", element: <ResourcesPage /> }
+  ]);
+
   return (
     <>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/electric-vehicles" element={<ElectricVehiclesPage />} />
-        <Route path="/charging-stations" element={<CharginStationsPage />} />
-        <Route path="/ev-compare" element={<EVCompare />} />
-        <Route path="/resources" element={<ResourcesPage />} />
-      </Routes>
+      {routes}
     </>
-  );
+  )
 }
 
 export default App;
