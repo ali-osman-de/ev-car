@@ -1,7 +1,7 @@
-import BrowseCategory from "../Components/BrowseCategory";
-import ImageHero from "../Components/ImageHero";
-import News from "../Components/News";
-import WhyChooseElectricCar from "../Components/WhyChooseElectricCar";
+import BrowseCategory from "../Components/HomePageComponents/BrowseCategory";
+import ImageHero from "../Components/HomePageComponents/ImageHero";
+import News from "../Components/HomePageComponents/News";
+import WhyChooseElectricCar from "../Components/HomePageComponents/WhyChooseElectricCar";
 
 function Home() {
   return (

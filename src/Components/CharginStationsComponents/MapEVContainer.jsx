@@ -36,7 +36,6 @@ function MapEVContainer() {
 
             const markerClusterGroup = L.markerClusterGroup();
 
-            // Özel ikonlar oluştur
             const esarjIcon = L.icon({
                 iconUrl: esarj,
                 iconSize: [40, 32], 
