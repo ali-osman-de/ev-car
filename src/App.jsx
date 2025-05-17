@@ -1,6 +1,6 @@
 import Home from "./Pages/Home";
 import ElectricVehiclesPage from "./Pages/ElectricVehiclesPage";
-import CharginStationsPage from "./Pages/CharginStationsPage";
+import CharginStationsPage from "./pages/CharginStationsPage";
 import ResourcesPage from "./Pages/ResourcesPage";
 import EvComparePage from "./Pages/EvComparePage";
 import { useRoutes } from 'react-router-dom';
