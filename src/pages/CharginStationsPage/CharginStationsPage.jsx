@@ -1,6 +1,6 @@
-import MapEVContainer from '../Components/CharginStationsComponents/MapEVContainer';
-import EVsChargerSuppliers from '../Components/CharginStationsComponents/EVsChargerSuppliers';
-import TurkeyEvAbout from '../components/CharginStationsComponents/TurkeyEvAbout';
+import MapEVContainer from '../../Components/CharginStationsComponents/MapEVContainer';
+import EVsChargerSuppliers from '../../Components/CharginStationsComponents/EVsChargerSuppliers';
+import TurkeyEvAbout from '../../components/CharginStationsComponents/TurkeyEvAbout';
 import React, { useState, useEffect } from 'react';
 
 

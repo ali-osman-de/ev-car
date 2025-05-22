@@ -1,5 +1,5 @@
 // import CarFiltering from "../Components/CarFiltering";
-import CarList from "../Components/ElectricVehiclesComponents/CarList";
+import CarList from "../../Components/ElectricVehiclesComponents/CarList";
 import { useEffect, useState } from "react";
 
 export default function ElectricVehiclesPage() {

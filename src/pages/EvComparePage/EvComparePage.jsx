@@ -1,6 +1,6 @@
-import EVCompare from '../Components/EvCompareComponents/EVCompare'
+import EVCompare from '../../Components/EvCompareComponents/EVCompare'
 import React, { useState, useEffect } from 'react';
-import OnComparedCarsB from '../Components/EvCompareComponents/OnComparedCarsB';
+import OnComparedCarsB from '../../Components/EvCompareComponents/OnComparedCarsB';
 
 
 function EvComparePage() {
