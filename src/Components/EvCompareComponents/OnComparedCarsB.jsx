@@ -1,4 +1,3 @@
-import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { removeCar } from '../../features/compareEV/compareSlice';
 import { useNavigate } from 'react-router';
@@ -6,7 +5,6 @@ import { useNavigate } from 'react-router';
 function OnComparedCarsB() {
     const navigate = useNavigate();
     const compareCars = useSelector((state) => state.compare.cars);
-    console.log(compareCars);
     const dispatch = useDispatch();
 
     const handleRemoveCar = (carId) => {
