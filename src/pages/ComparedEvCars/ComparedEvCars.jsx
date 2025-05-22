@@ -1,5 +1,4 @@
-import React from 'react';
-import CompareCarDetails from '../Components/EvCompareComponents/ComparedComponents/CompareCarDetails';
+import CompareCarDetails from '../../Components/EvCompareComponents/ComparedComponents/CompareCarDetails';
 
 const ComparedEvCars = () => {
 

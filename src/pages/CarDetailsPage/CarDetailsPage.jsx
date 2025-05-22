@@ -1,5 +1,5 @@
 import React from 'react'
-import VehicleDetail from '../Components/ElectricVehiclesComponents/VehicleDetailsComponents/VehicleDetail';
+import VehicleDetail from '../../Components/ElectricVehiclesComponents/VehicleDetailsComponents/VehicleDetail';
 import { useLocation } from 'react-router';
 
 function CarDetailsPage() {
